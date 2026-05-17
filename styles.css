@@ -199,7 +199,8 @@ h3 {
 
 .band,
 .module-section,
-.plan-section {
+.plan-section,
+.book-section {
   padding: clamp(40px, 7vw, 76px) clamp(18px, 5vw, 64px);
 }
 
@@ -274,6 +275,57 @@ h3 {
 .stats-band span {
   margin-top: 6px;
   color: rgba(255, 255, 255, 0.72);
+}
+
+.book-section {
+  background: #f6f2ea;
+}
+
+.book-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+  gap: 16px;
+}
+
+.book-card {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  padding: clamp(18px, 4vw, 30px);
+  border: 1px solid rgba(23, 32, 42, 0.1);
+  border-radius: 8px;
+  background: white;
+}
+
+.book-card.quiet {
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.book-kicker {
+  margin: 0;
+  color: var(--rose);
+  font-weight: 900;
+}
+
+.book-facts {
+  display: grid;
+  gap: 11px;
+  margin: 0;
+}
+
+.book-facts div {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.book-facts dt {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.book-facts dd {
+  margin: 0;
 }
 
 .tools {
@@ -499,7 +551,8 @@ footer p {
 @media (max-width: 1050px) {
   .hero,
   .section-heading.wide,
-  .quiz-layout {
+  .quiz-layout,
+  .book-layout {
     grid-template-columns: 1fr;
   }
 
