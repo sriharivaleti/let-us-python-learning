@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Let Us Python Solutions - Learning Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Let Us Python learning guide home">
+        <span class="brand-mark">Py</span>
+        <span>Let Us Python Guide</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#modules">Modules</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#plan">Plan</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">5th edition solutions companion</p>
+          <h1>Study Python through solved patterns, not passive reading.</h1>
+          <p class="lede">
+            This learning website summarizes <cite>Let Us Python Solutions</cite> by
+            Yashavant Kanetkar and Aditya Kanetkar as a guided practice path:
+            basics, collections, functions, object-oriented Python, files,
+            concurrency, synchronization, and NumPy.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#modules">Start modules</a>
+            <a class="button secondary" href="#quiz">Try a quiz</a>
+          </div>
+        </div>
+        <div class="visual-panel" aria-label="Python learning route visualization">
+          <img src="assets/python-route.svg" alt="A visual route from Python basics to NumPy mastery" />
+        </div>
+      </section>
+
+      <section id="overview" class="band">
+        <div class="section-heading">
+          <p class="eyebrow">Book Summary</p>
+          <h2>What the book contains</h2>
+        </div>
+        <div class="summary-grid">
+          <article>
+            <h3>Concept checks</h3>
+            <p>
+              The early chapters verify Python orientation: why Python is used,
+              how to run code, basic data types, expressions, imports, random
+              numbers, operators, and formatting.
+            </p>
+          </article>
+          <article>
+            <h3>Output reasoning</h3>
+            <p>
+              Many exercises ask what a snippet prints or why a statement fails.
+              The focus is building mental execution skills around conditionals,
+              loops, slicing, mutability, identity, and collection behavior.
+            </p>
+          </article>
+          <article>
+            <h3>Small programs</h3>
+            <p>
+              The solutions demonstrate compact scripts for string processing,
+              histograms, numeric series, nested lists, dictionaries, recursion,
+              decorators, file handling, and simple class models.
+            </p>
+          </article>
+          <article>
+            <h3>Advanced foundations</h3>
+            <p>
+              Later chapters move into namespaces, classes, operator overloading,
+              containership, inheritance, iterators, generators, exceptions,
+              threading, locks, events, conditions, and NumPy arrays.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Learning coverage">
+        <div>
+          <strong>27</strong>
+          <span>core chapters</span>
+        </div>
+        <div>
+          <strong>5</strong>
+          <span>periodic tests</span>
+        </div>
+        <div>
+          <strong>4</strong>
+          <span>learning stages</span>
+        </div>
+        <div>
+          <strong>282</strong>
+          <span>PDF pages in source file</span>
+        </div>
+      </section>
+
+      <section id="modules" class="module-section">
+        <div class="section-heading wide">
+          <div>
+            <p class="eyebrow">Learning Modules</p>
+            <h2>Chapter-by-chapter path</h2>
+          </div>
+          <div class="tools">
+            <label class="search-label" for="search">Search</label>
+            <input id="search" type="search" placeholder="Find strings, files, OOP..." />
+            <div class="filters" aria-label="Module filters">
+              <button class="filter active" data-filter="all">All</button>
+              <button class="filter" data-filter="foundation">Foundation</button>
+              <button class="filter" data-filter="core">Core</button>
+              <button class="filter" data-filter="oop">OOP</button>
+              <button class="filter" data-filter="advanced">Advanced</button>
+            </div>
+          </div>
+        </div>
+        <div id="moduleGrid" class="module-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="quiz" class="band quiz-band">
+        <div class="section-heading">
+          <p class="eyebrow">Practice</p>
+          <h2>Quick recall quiz</h2>
+        </div>
+        <div class="quiz-layout">
+          <article class="quiz-card">
+            <p id="quizTopic" class="quiz-topic">Python Basics</p>
+            <h3 id="quizQuestion">Loading question...</h3>
+            <div id="quizOptions" class="quiz-options"></div>
+            <p id="quizFeedback" class="feedback" role="status"></p>
+            <button id="nextQuestion" class="button primary" type="button">Next question</button>
+          </article>
+          <aside class="notes-panel">
+            <h3>How to use this site</h3>
+            <p>
+              Read a module summary, mark it complete, then answer the quiz from
+              memory. For coding chapters, write the program yourself before
+              comparing ideas with the solution book.
+            </p>
+            <div class="progress-box">
+              <span>Completed modules</span>
+              <strong id="progressCount">0 / 27</strong>
+              <div class="meter" aria-hidden="true"><span id="progressBar"></span></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="plan" class="plan-section">
+        <div class="section-heading">
+          <p class="eyebrow">Study Plan</p>
+          <h2>Four-week route</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>Week 1</span>
+            <h3>Syntax and control flow</h3>
+            <p>Chapters 1-7: setup, variables, strings, decisions, loops, input, and formatted output.</p>
+          </article>
+          <article>
+            <span>Week 2</span>
+            <h3>Collections and functions</h3>
+            <p>Chapters 8-15: lists, tuples, sets, dictionaries, comprehensions, functions, recursion, and functional tools.</p>
+          </article>
+          <article>
+            <span>Week 3</span>
+            <h3>Modules and object thinking</h3>
+            <p>Chapters 16-21: packages, namespaces, classes, object internals, inheritance, iterators, and generators.</p>
+          </article>
+          <article>
+            <span>Week 4</span>
+            <h3>Robust programs</h3>
+            <p>Chapters 22-27: exceptions, files, decorators, command-line usage, concurrency, synchronization, and NumPy.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Built as a concise learning companion. It paraphrases the structure and
+        topics of the solution book and avoids reproducing full solutions.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

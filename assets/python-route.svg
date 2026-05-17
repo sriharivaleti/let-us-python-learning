@@ -1,0 +1,41 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Python learning route</title>
+  <desc id="desc">A route map showing the progression from setup to NumPy.</desc>
+  <rect width="900" height="650" fill="#EEF7F3"/>
+  <path d="M80 530C170 435 230 520 314 420C398 320 458 377 538 250C607 141 724 175 812 86" stroke="#17202A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M80 530C170 435 230 520 314 420C398 320 458 377 538 250C607 141 724 175 812 86" stroke="#F3B562" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="80" cy="530" r="38" fill="#2A9D8F"/>
+  <circle cx="314" cy="420" r="38" fill="#277DA1"/>
+  <circle cx="538" cy="250" r="38" fill="#D95D67"/>
+  <circle cx="812" cy="86" r="38" fill="#17202A"/>
+  <g fill="#17202A" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="26">
+    <text x="52" y="538" fill="white">01</text>
+    <text x="286" y="428" fill="white">08</text>
+    <text x="510" y="258" fill="white">18</text>
+    <text x="784" y="94" fill="white">27</text>
+  </g>
+  <g fill="#17202A" font-family="Inter, Arial, sans-serif">
+    <text x="54" y="596" font-size="28" font-weight="800">Setup</text>
+    <text x="238" y="490" font-size="28" font-weight="800">Collections</text>
+    <text x="480" y="320" font-size="28" font-weight="800">Objects</text>
+    <text x="742" y="154" font-size="28" font-weight="800">NumPy</text>
+  </g>
+  <g opacity="0.55" stroke="#2A9D8F" stroke-width="2">
+    <circle cx="170" cy="120" r="58"/>
+    <circle cx="210" cy="155" r="26"/>
+    <circle cx="682" cy="488" r="78"/>
+    <circle cx="720" cy="532" r="30"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#D9DFDF">
+    <rect x="84" y="72" width="210" height="82" rx="8"/>
+    <rect x="592" y="378" width="230" height="92" rx="8"/>
+    <rect x="344" y="530" width="240" height="76" rx="8"/>
+  </g>
+  <g fill="#637083" font-family="Inter, Arial, sans-serif" font-size="22">
+    <text x="108" y="108">Trace outputs</text>
+    <text x="108" y="136">before reading answers</text>
+    <text x="616" y="414">Build tiny scripts</text>
+    <text x="616" y="442">for every concept</text>
+    <text x="368" y="576">Review with periodic tests</text>
+  </g>
+</svg>
